@@ -109,6 +109,18 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+            <plugin>
+                <groupId>org.apache.tomcat.maven</groupId>
+                <artifactId>tomcat7-maven-plugin</artifactId>
+                <version>2.2</version>
+                <!-- 修改访问路径和端口号 -->
+                <configuration>
+                    <!-- 注意tomcat7此处的url -->
+                    <url>http://localhost:8080/manager/text</url>
+                    <server>tomcat7</server> <!-- 此处的名字必须和setting.xml中配置的ID一致-->
+                    <path>/log4j2</path> <!-- 此处的名字是项目发布的工程名-->
+                </configuration>
+            </plugin>
             <!--<plugin>
                 <groupId>org.mybatis.generator</groupId>
                 <artifactId>mybatis-generator-maven-plugin</artifactId>
