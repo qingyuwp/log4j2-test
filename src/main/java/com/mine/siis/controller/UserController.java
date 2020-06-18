@@ -19,7 +19,7 @@ public class UserController {
     @RequestMapping("/hello")
     public String hello(){
         userService.findUserById(1);
-        System.out.println("system.out.println hello World!!!");
+        System.out.println("system.out.println wr  hello World!!!");
         LOGGER.info("+++++++++++++++++++hello World !!!  ||||");
         return "hello world!!!";
     }
