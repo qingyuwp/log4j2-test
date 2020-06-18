@@ -119,6 +119,9 @@
                     <url>http://localhost:8080/manager/text</url>
                     <server>tomcat7</server> <!-- 此处的名字必须和setting.xml中配置的ID一致-->
                     <path>/log4j2</path> <!-- 此处的名字是项目发布的工程名-->
+                    <username>admin</username>
+                    <password>admin</password>
+                    <server>tomcat9</server>
                 </configuration>
             </plugin>
             <!--<plugin>
