@@ -123,6 +123,7 @@
                     <password>admin</password>
                     <server>tomcat9</server>
                     <update>true</update>
+                    <uriEncoding>UTF-8</uriEncoding>
                 </configuration>
             </plugin>
             <!--<plugin>
