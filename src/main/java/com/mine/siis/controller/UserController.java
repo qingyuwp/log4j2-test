@@ -20,7 +20,7 @@ public class UserController {
     public String hello(){
         userService.findUserById(1);
         System.out.println("system.out.println hello World!!!");
-        LOGGER.info("+++++++++++++++++++hello World !!!");
+        LOGGER.info("+++++++++++++++++++hello World !!!  ||||");
         return "hello world!!!";
     }
 }
