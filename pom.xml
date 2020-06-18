@@ -122,6 +122,7 @@
                     <username>admin</username>
                     <password>admin</password>
                     <server>tomcat9</server>
+                    <update>true</update>
                 </configuration>
             </plugin>
             <!--<plugin>
